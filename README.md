@@ -5,7 +5,7 @@ This is a simple hex viewer and editor written in rust. This is fairly basic, I 
 
 ## Usage
 ```
-hex-it -p <file>
+hex_it -p <file>
 
 Options:
     -p, --path <file>   Path to file to open
