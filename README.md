@@ -8,8 +8,10 @@ This is a simple hex viewer and editor written in rust. This is fairly basic, I 
 hex-it -p <file>
 
 Options:
-    -p<file>    Path to file to open
-    -h          Print this help message
+    -p, --path <file>   Path to file to open
+    -c, --colors        Open file without colors
+    -h, --help          Print this help message
+
 ```
 
 (type help once you open the file and read the commands)

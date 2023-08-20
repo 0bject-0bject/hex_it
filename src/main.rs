@@ -63,7 +63,7 @@ fn get_args() -> CliArgs {
     let args: Vec<String> = env::args().collect();
 
     let mut cliargs = CliArgs {
-        colors: false,
+        colors: true,
         file: PathBuf::new(),
     };
 
@@ -84,7 +84,7 @@ fn get_args() -> CliArgs {
                         std::process::exit(0);
                     }
                     ("colors", 'c') => {
-                        cliargs.colors = true;
+                        cliargs.colors = false;
                     }
                     ("path", 'p') => {
                         skip_next = true;
