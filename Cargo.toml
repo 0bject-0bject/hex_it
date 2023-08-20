@@ -1,0 +1,15 @@
+[package]
+name = "hex_it"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+authors = ["object Object"]
+repository = "https://github.com/0bject-0bject/hex-it"
+license = "MIT"
+description = "A simple hex viewer and basic editor written in Rust"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tui-tools = "0.1.2"
+term_size = "0.3.0"
